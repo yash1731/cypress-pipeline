@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "cypress:open":"cypress open"
+    "cypress:open":"cypress open",
+    "cypress-run":"cypress run",
+    "int-test":"start-server-and-test next http://automationpractice.com/index.php cypress-run"
 
   },
   "keywords": [],
