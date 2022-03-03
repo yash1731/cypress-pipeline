@@ -3,11 +3,10 @@
    push:
      branches:
        - 'master'
-
  jobs:
-  cypress-run: 
-  runs-on: ubuntu-latest
-  container: cypress/browsers:node12.18.3-chrome87-ff82
+    cypress-run: 
+    runs-on: ubuntu-latest
+    container: cypress/browsers:node12.18.3-chrome87-ff82
  steps:
     - uses: actions/checkout@v2
     - name: Install a project with a clean slate
