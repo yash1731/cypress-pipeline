@@ -6,6 +6,7 @@ on:
   push:
     branches:
       - 'master'
+      
 jobs:
   cypress-test:
   name: Run on Chrome 83
