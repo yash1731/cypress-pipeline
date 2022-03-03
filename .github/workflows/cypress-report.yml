@@ -1,4 +1,4 @@
- name: Generate Cypress report
+  name: Generate Cypress report
  on:
    push:
      branches:
