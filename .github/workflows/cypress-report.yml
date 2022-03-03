@@ -1,8 +1,8 @@
   name: Generate Cypress report
- on:
+  on:
    push:
      branches:
-       - 'master'
+        - master
  jobs:
     cypress-run: 
     runs-on: ubuntu-latest
