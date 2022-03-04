@@ -1,13 +1,16 @@
 {
-    "projectId": "7mfdjd",
-    "viewportWidth": 1000,
-    "viewportHeight": 560,
 
     "reporter": "mochawesome",
     "reporterOptions": {
         "overwrite": false,
         "html": false,
-        "json": true
+        "json": true,
+        
+    "projectId": "7mfdjd",
+    "viewportWidth": 1000,
+    "viewportHeight": 560
+
+    
     }
 }
 
