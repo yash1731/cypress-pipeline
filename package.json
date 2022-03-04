@@ -4,10 +4,12 @@
   "description": "cypress project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:chrome": "cypress run --browser chrome",
     "cypress:open":"cypress open",
     "cypress-run":"cypress run",
-    "int-test":"start-server-and-test next http://automationpractice.com/index.php cypress-run"
+    "int-test":"start-server-and-test next http://automationpractice.com/index.php cypress-run",
+    "combine:report": "mochawesome-merge ./mochawesome-report/*.json -o index.json",
+        "generate:report": "marge index.json --reportDir public --assetsDir public/assets --reportPageTitle index.html"
 
   },
   "keywords": [],
